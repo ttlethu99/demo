@@ -1,0 +1,4 @@
+{
+    "baseUrl":"https://plusbase-auto.onshopbase.com/checkouts/",
+    "defaultCommandTimeout": 20000
+}
