@@ -17,7 +17,7 @@ import Automation01 from "../../Automation01"
 describe('Test demo automation', () => {
   const checkout = new Checkout();
   //test 02
-  it('(CommonTC_G_12 Verify Email textbox when input into invalid value)', () => {
+  it('(CommonTC_G_12) Verify Email textbox when input into invalid value', () => {
     cy.visit('/e69266bfc5e2414c8b0e3e925ccdcde3')
     cy.wait(12000)
     cy.fixture("email").then(email=>{
